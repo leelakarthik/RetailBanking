@@ -1,0 +1,121 @@
+.main {
+	margin-left: 500px;
+	font-family: sans-serif
+}
+body{
+	background-color: #fff;
+}
+.button-success, .button-error {
+	background: #007bff;
+	outline-color: #007bff;
+	width: 20px
+}
+.button-success:hover {
+	background: green;
+	outline-color: #007bff;
+	transition:.7s
+}
+.button-error:hover {
+	background-color: red;
+	transition:.7s
+}
+.button-success, .button-error {
+	height: 40px;
+	width: 100px;
+	color: #e1f4f3;
+	border: 4.8px solid transparent;
+	border-radius: 4px;
+	background: #007bff;
+	overflow: visible;
+}
+.pure-form input[type=date]{
+	padding: .5em .6em;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.pure-form input[type=date],.pure-form input[type=number], .pure-form input[type=password],
+ .pure-form input[type=text], .pure-form select,
+	.pure-form textarea {
+	padding: .5em .6em;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.pure-form select {
+	height: 2.25em;
+	border: 1px solid green;
+	background-color:#e1f4f3;
+	width: 214px;
+}
+h1 {
+	font-size: 34px;
+	padding: 10px 0;
+	color:#363636;
+}
+button, input, select, textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0
+}
+	
+.pure-form input[type=number]:focus, .pure-form input[type=password]:focus,
+	.pure-form input[type=text]:focus,.pure-form input[type=date]:focus, .pure-form select:focus, .pure-form textarea:focus
+	{
+	outline: 0;
+	border-color: #129fea;
+}
+
+.pure-form select {
+	height: 2.25em;
+	border: 1px solid #ccc;
+	background-color:#fff;
+}
+
+.pure-form fieldset {
+	margin: 0;
+	padding-top: 100px;
+	align-items: center;
+	border: 0
+}
+
+.pure-form-aligned input, .pure-form-aligned select, .pure-form-aligned textarea {
+	display: inline-block;
+	vertical-align: middle
+}
+.pure-form input[readonly], .pure-form select[readonly], .pure-form textarea[readonly]
+	{
+	cursor: not-allowed;
+}
+.pure-form-aligned textarea {
+	vertical-align: top
+}
+
+.pure-form-aligned .pure-control-group {
+	margin-bottom: .5em
+}
+
+.pure-form-aligned .pure-control-group label {
+	text-align: left;
+	display: inline-block;
+	vertical-align: middle;
+	width: 10em;
+	margin: 0 1em 0 0
+}
+
+.pure-form-aligned .pure-controls {
+	margin: 1.5em 0em 1.5em 12em;
+}
+
+.pure-form .pure-group button {
+	margin: .35em 0
+}
