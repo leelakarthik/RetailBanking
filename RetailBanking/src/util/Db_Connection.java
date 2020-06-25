@@ -11,13 +11,16 @@ public class Db_Connection {
     public static Connection con = null;
 
     public static Connection open_Connection() throws ServletException {
-        String DB_username = "root";
-        String JDBC_URL = "jdbc:mysql://localhost:3306/retail_banking"+"?serverTimezone=" + TimeZone.getDefault().getID();
         try {
-            con = DriverManager.getConnection(JDBC_URL, DB_username, "");
-        } catch (SQLException ex) {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		String JDBC_URL = "jdbc:mysql://db4free.net:3306/retail_banking?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&useSSL=false";      
+	        con = DriverManager.getConnection(JDBC_URL, "retail", "retailbanking");
+	        System.out.println("sucess");
+        } catch (Exception ex) {
             System.out.println(ex);
         }
+        System.out.println(con);
 	return con;
     }
 }
+
