@@ -4,7 +4,7 @@ A simple RetailBanking Web Application developed using JavaServerPages along sid
 Role based access is provided for the operations present in the page. All banking features like create customer and create Account for existing customer are provided along side 
 Deposit, Withdraw, Transfer and view Statements of the account. The Account Statements can be exported to either Excel Sheet or PDF on user choice.
 
-Roles ::
+Roles :
 
 Executive ==> 
   Executive can create, update, delete a customer and can create multiple accounts for the existing customer and delete them as well.
