@@ -6,11 +6,11 @@ Deposit, Withdraw, Transfer and view Statements of the account. The Account Stat
 
 Roles :
 
-Executive ==> 
+Executive ==> username 1234 password 1234
   Executive can create, update, delete a customer and can create multiple accounts for the existing customer and delete them as well.
   Executive can also view the status of accounts and customers.
   
-Teller ==>
+Teller ==> username 123 password 123
   Teller can't be able to perform Executive operations.
   Teller can perform Deposit, Withdraw, Transfer Money and Can also print Account Statement for particular Account.
   Teller can also export the Account_Transactions to Excellsheet or PDF.
