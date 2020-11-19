@@ -6,7 +6,7 @@ Deposit, Withdraw, Transfer and view Statements of the account. The Account Stat
 
 Roles :
 
-Executive ==> username 1234 password 1234
+Executive ==> username 1234 password 123
   Executive can create, update, delete a customer and can create multiple accounts for the existing customer and delete them as well.
   Executive can also view the status of accounts and customers.
   
